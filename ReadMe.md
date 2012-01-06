@@ -35,7 +35,7 @@ Visit the secret dashboard
 
 ``` http://localhost:9003/dashboard.html ```
 
-<h3>Emitter API</h3>
+## Emitter API
 
 ``` js
 // Browser
@@ -48,7 +48,7 @@ hook.on('browser::hello', function(data){
 });
 ```
 
-<h3>Emitter Callback API</h3>
+## Emitter Callback API
 ``` js
 // Browser
 hook.emit('hello', function(err, result){
